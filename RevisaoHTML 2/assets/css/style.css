@@ -1,0 +1,39 @@
+.jumbotron{
+    background-color: aquamarine !important;
+    height: 50px !important;
+}
+
+.nav{
+    margin-top: -32px !important;
+    margin-left: -20px;
+    background-color: black !important;
+    height: 528px;
+}
+
+input{
+    border-radius: 5px;
+    margin-top: 15px;
+    border-color: rgb(138, 136, 136);
+    padding-left: 5px;
+}
+fieldset{
+    margin-top: 15px;
+    border-color: tomato;
+}
+legend{
+    color: tomato;
+}
+/*Eu tentei alinhar a label mas nao consegui!!!*/
+label{
+    color: tomato;
+    width: 250px !important;
+}
+
+#textoTitulo{
+    margin-left: -40px;
+    margin-top: -25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}

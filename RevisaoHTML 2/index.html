@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Revisao 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <p id="textoTitulo">Back End</p>
+        </div>
+    </header>
+<section class="col-md-12">
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        <article class="col-md-8">
+            <fieldset>        
+                <legend>Dados Pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="nome"> <br>
+                <label>Nascimento:</label>
+                <input type="date" name="data"><br>
+                <label>RG:</label>
+                <input type="text" name="RG"><br>
+                <label>CPF:</label>
+                <input type="text" name="CPF">
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados de Endereço</legend>
+                <label>Rua:</label>
+                <input type="text" name="rua"> <br>
+                <label id="numero">Numero:</label>
+                <input type="number" name="numero"><br>
+                <label>Bairro:</label>
+                <input type="text" name="bairro"><br>
+                <label>Estado:</label>
+                <select name="estado">
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                </select><br>
+                <label>Cidade:</label>
+                <input type="text" name="cidade"><br>
+                <label>CEP:</label>
+                <input type="text" name="CEP">
+            </fieldset>
+        </article>
+    </div>
+</section>
+</body>
+</html>
